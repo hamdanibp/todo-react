@@ -25,6 +25,7 @@
 
 .todo-list {
   width: fit-content;
+  text-align: left;
 }
 
 .todo-form span {
@@ -37,5 +38,14 @@
 }
 
 .todo-form input {
+  width: 80%;
+}
+
+.todo-form span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form span > *:first-child {
   width: 80%;
 }
